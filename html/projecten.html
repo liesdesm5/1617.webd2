@@ -1,0 +1,205 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<script>
+			$(document).ready(function(){
+				$(".klik").on("click", function () {
+					console.log("yo")
+					$("#myModal").show();
+				});
+				$("#myModal").on("click", function () {
+				console.log("lelik")
+					$("#myModal").hide();
+				});
+			});
+		</script>
+	</head>
+	<body>
+	<div id="nav" class="nav">
+		<div id="wrapper" class="wrapper">
+			<a href="../index.html">
+			<div id="logo" class="logo">
+				<img src="../assets/logo.png" style="width: 160px;"/>
+			</div>
+			</a>
+			<div id="menuitem" class=" filler">
+			</div>
+			<a href="over.html">
+			<div id="menuitem" class="menuitem ">
+				Over
+			</div>
+			</a>
+			<a href="projecten.html">
+				<div id="menuitem" class="menuitem">
+					Projecten
+				</div>
+			</a>
+			<a href="aanpak.html">
+			<div id="menuitem" class="menuitem active">
+				Aanpak
+			</div>
+			</a>
+			<a href="contact.html">
+			<div id="menuitem" class="menuitem">
+				Contacts
+			</div>
+			</a>
+		</div>
+	</div>
+	<div id="wrapper" class="wrapper">
+		<div id="content" class="content">
+			<div id="photogrid" class="photogrid">
+				<table>
+					<tr>
+						<td rowspan="2">
+							<div class="containerImage">
+								<img src="../assets/dce.png">
+								<div class="middle">
+									<div class="blok"><span class="klik">Meer info</span></div>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="containerImage">
+								<img src="../assets/elefant.png"/>
+								<div class="middle">
+									<div class="blok"><span class="klik">Meer info</span></div>
+								</div>
+							</div>
+						</td>
+						<td rowspan="2">
+							<div class="containerImage">
+								<img src="../assets/atletiek.png"/>
+								<div class="middle">
+									<div class="blok"><span class="klik">Meer info</span></div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="containerImage">
+								<img src="../assets/zarafa.png"/>
+								<div class="middle">
+									<div class="blok"><span class="klik">Meer info</span></div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="containerImage">
+								<img src="../assets/hippo.png"/>
+								<div class="middle">
+									<div class="blok"><span class="klik">Meer info</span></div>
+								</div>
+							</div>
+						</td>
+						<td rowspan="2">
+							
+							<div class="containerImage">
+								<img src="../assets/gbc.png"/>
+								<div class="middle">
+									<div class="blok"><span class="klik">Meer info</span></div>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="containerImage">
+								<img src="../assets/atletien.png"/>
+								<div class="middle">
+									<div class="blok"><span class="klik">Meer info</span></div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="containerImage">
+								<img src="../assets/pinokio.png"/>
+								<div class="middle">
+									<div class="blok"><span class="klik">Meer info</span></div>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="containerImage">
+								<img src="../assets/tractor.png"/>
+								<div class="middle">
+									<div class="blok"><span class="klik">Meer info</span></div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="containerImage">
+								<img src="../assets/cl.png"/>
+								<div class="middle">
+									<div class="blok"><span class="klik">Meer info</span></div>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="containerImage">
+								<img src="../assets/l.png"/>
+								<div class="middle">
+									<div class="blok"><span class="klik">Meer info</span></div>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="containerImage">
+								<img src="../assets/motor.png"/>
+								<div class="middle">
+									<div class="blok"><span class="klik">Meer info</span></div>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="myModal" class="modal">
+				<div class="modal-content">
+					<div class="modal-body">
+						<img src="../assets/elefanto.png"/>
+					</div>
+					<div class="modal-footer">
+						<p class="modalTekst">Elefant is ontworpen voor een fris en </br>levendig kinder kledingwinkel</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div id="footer" class="footer">
+			<div id="wrapper" class="wrapper">
+				<div id="footerContent" class="footerContent">
+					<div id="footerItem" class="footerItem">
+						<img src="../assets/altLogoKlein.png"/>
+					</div>
+					<div id="footerItem" class="footerItem">
+						<p>
+							Pastorijstraat 27</br>
+							Borsbeke</br>
+							België</br>
+						</p>
+					</div>
+					<div id="footerItem" class="footerItem">
+						<a href="">
+							<div id="socialeMediaIcon" class="socialeMediaIcon">
+							<img src="../assets/Linkedin.png"/>
+						</div>
+						</a>
+						<div id="socialeMediaIcon" class="socialeMediaIcon">
+							<img src="../assets/behance.png"/>
+						</div>
+						<div id="socialeMediaIcon" class="socialeMediaIcon">
+							<img src="../assets/facebook.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
